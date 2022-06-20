@@ -1,7 +1,7 @@
 class MinStack {
     //using 2 stacks
-    Stack<Integer> s1 = new Stack <Integer>();
-    Stack<Integer> minstack = new Stack <Integer>();
+    Stack<Integer> s1 = new Stack ();
+    Stack<Integer> minstack = new Stack ();
     // int min=Integer.MAX_VALUE;
 
     public MinStack() {
